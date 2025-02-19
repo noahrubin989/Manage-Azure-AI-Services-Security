@@ -45,12 +45,15 @@ On the **Basics** page, configure the basics such as the **Key vault name**, etc
 <img width="399" alt="Screenshot 2025-02-19 at 4 05 03 PM" src="https://github.com/user-attachments/assets/34c41914-44ba-4ec7-a973-18f0d81692ad" />
 
 On the **Access configuration** page, select the **Permission model** as **Vault access policy** (A Key Vault access policy determines whether a given security principal, namely a user, application or user group, can perform different operations on keys, secrets and certificates) and check the newly displayed checkbox. once done, press **Review + create**. Wait for the deployment to start and finish.
+
 <img width="736" alt="Screenshot 2025-02-19 at 4 08 52 PM" src="https://github.com/user-attachments/assets/adeec559-83e1-42af-b3b9-8af25341fd1d" />
 
 In the newly deployed **Key vault** resource, navigate to **Secrets**
+
 <img width="738" alt="Screenshot 2025-02-19 at 4 11 55 PM" src="https://github.com/user-attachments/assets/82720d0e-2b63-4737-adaf-2bde1cf137fd" />
 
 Once done, select **+ Generate/Import** and configure it in the following way. Here my **Secret value** has been set to the **Key 1** value from the previously created AI Services resource. Once done press **Createw**
+
 <img width="604" alt="Screenshot 2025-02-19 at 4 13 38 PM" src="https://github.com/user-attachments/assets/f15e7b5c-8700-41f8-90ac-2a2dd2e5dba3" />
 
 We now need to access the secret in the key vault, and to do so must use a service principal that has access to the secret
@@ -61,6 +64,7 @@ We now need to access the secret in the key vault, and to do so must use a servi
 ```
 
 In this case:
+
 <img width="1163" alt="Screenshot 2025-02-19 at 4 30 00 PM" src="https://github.com/user-attachments/assets/da7c1223-a668-4329-8f80-5c3f9a4b4bbd" />
 
 The output of this command takes the following form:
