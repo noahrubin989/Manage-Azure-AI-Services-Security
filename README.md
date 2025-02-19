@@ -20,6 +20,7 @@ Answer: In Networking properties, add your client IP address to the Firewall all
 
 ## Resources 
 * [Manage Azure AI Services Security - Microsoft Learn](https://microsoftlearning.github.io/mslearn-ai-services/Instructions/Exercises/02-ai-services-security.html)
+* [Quickstart: Azure Key Vault secret client library for Python](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-python?tabs=azure-cli#create-the-sample-code)
 * [Get started with Azure Cloud Shell](https://learn.microsoft.com/en-us/azure/cloud-shell/get-started/classic?tabs=azurecli)
 
 
