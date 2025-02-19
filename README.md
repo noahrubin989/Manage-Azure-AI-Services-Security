@@ -39,9 +39,11 @@ First, navigate to **Key vaults**
 <img width="744" alt="Screenshot 2025-02-19 at 4 00 43 PM" src="https://github.com/user-attachments/assets/b3d9813b-4dee-4de4-949f-9fc3c195de93" />
 
 Then select **Create key vault**
+
 <img width="743" alt="Screenshot 2025-02-19 at 4 02 04 PM" src="https://github.com/user-attachments/assets/6ea8f5f2-df1b-4806-818a-1a07992c8aa4" />
 
 On the **Basics** page, configure the basics such as the **Key vault name**, etc.
+
 <img width="399" alt="Screenshot 2025-02-19 at 4 05 03 PM" src="https://github.com/user-attachments/assets/34c41914-44ba-4ec7-a973-18f0d81692ad" />
 
 On the **Access configuration** page, select the **Permission model** as **Vault access policy** (A Key Vault access policy determines whether a given security principal, namely a user, application or user group, can perform different operations on keys, secrets and certificates) and check the newly displayed checkbox. once done, press **Review + create**. Wait for the deployment to start and finish.
